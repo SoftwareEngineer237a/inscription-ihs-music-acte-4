@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Cinzel", ui-serif, Georgia, serif;
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --color-gold: #c9a84c;
+  --color-gold-soft: #e8d5a3;
+  --color-cream: #f4eee3;
+  --color-ink: #0c0a09;
+  --color-ink-2: #161311;
+  --color-wine: #8a2a3b;
+}
+
+html {
+  background: #0c0a09;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--font-sans);
+  background:
+    radial-gradient(ellipse 80% 45% at 50% -10%, rgba(201, 168, 76, 0.14), transparent 60%),
+    #0c0a09;
+  color: #f4eee3;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+::selection {
+  background: #c9a84c;
+  color: #0c0a09;
+}
+
+input,
+textarea,
+button {
+  font-family: inherit;
+}
+
+/* Cadre caméra du scanner */
+#qr-reader video {
+  width: 100% !important;
+  border-radius: 0;
+}
+
+#qr-reader__dashboard_section {
+  display: none;
+}
