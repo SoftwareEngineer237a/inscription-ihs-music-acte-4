@@ -11,7 +11,7 @@ export const CONFIG = {
    * URL du déploiement Google Apps Script (se termine par /exec).
    * Laissez vide ou "..." pour le mode local (données dans ce navigateur).
    */
-  apiUrl: "",
+  apiUrl: "https://script.google.com/macros/s/AKfycbxSX7jupL_2CyUQC8EnKCq0RpVUcIrE1P2UQAhVas5L_L2cwQnQo3JOnpj3CDj7hXFa/exec",
 };
 
 /** Alias demandé par le cahier des charges. */
